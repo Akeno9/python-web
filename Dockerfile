@@ -86,7 +86,7 @@ RUN python3 -m pip install -U pip setuptools wheel; \
 
 # clone repo and set working directory
 
-RUN git clone "https://gitlab.com/e3ris/Ultroid.git" $HOME/app
+RUN git clone "https://github.com/itzrexmodz/mirror-leech-telegram-bot" $HOME/app
 
 WORKDIR $HOME/app
 
