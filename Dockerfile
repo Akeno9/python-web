@@ -38,7 +38,7 @@ RUN apt install -y --no-install-recommends \
 
     sudo pkg-config neofetch tree locate \
 
-    megatools curl procps ffmpeg man git \
+    megatools curl procps qbittorrent-nox libmagic-dev aria2 ffmpeg man git \
 
     python3-pip python3.9-venv python3-lib2to3
 
